@@ -52,6 +52,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="formADMIN\frm PANTALLA PRINCIPAL ADMIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formADMIN\frm PANTALLA PRINCIPAL ADMIN.Designer.cs">
+      <DependentUpon>frm PANTALLA PRINCIPAL ADMIN.cs</DependentUpon>
+    </Compile>
     <Compile Include="formADMIN\frmLoginAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +68,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formADMIN\frm PANTALLA PRINCIPAL ADMIN.resx">
+      <DependentUpon>frm PANTALLA PRINCIPAL ADMIN.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="formADMIN\frmLoginAdmin.resx">
       <DependentUpon>frmLoginAdmin.cs</DependentUpon>
