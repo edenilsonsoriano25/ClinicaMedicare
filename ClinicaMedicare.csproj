@@ -83,5 +83,20 @@
   <ItemGroup>
     <None Include="Resources\Medicare logo.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alt-administrador.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cruz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\md-del-usuario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimizar-ventana.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\restaurar-ventana.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
