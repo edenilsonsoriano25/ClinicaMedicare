@@ -58,14 +58,14 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1035, 61);
+            this.panel1.Size = new System.Drawing.Size(1282, 61);
             this.panel1.TabIndex = 0;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::ClinicaMedicare.Properties.Resources.cruz;
             this.pictureBox1.InitialImage = global::ClinicaMedicare.Properties.Resources.cruz;
-            this.pictureBox1.Location = new System.Drawing.Point(975, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(1245, 20);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(25, 25);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -76,7 +76,7 @@
             // 
             this.pictureBox2.Image = global::ClinicaMedicare.Properties.Resources.restaurar_ventana;
             this.pictureBox2.InitialImage = global::ClinicaMedicare.Properties.Resources.cruz;
-            this.pictureBox2.Location = new System.Drawing.Point(932, 12);
+            this.pictureBox2.Location = new System.Drawing.Point(1202, 20);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(25, 25);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -87,7 +87,7 @@
             // 
             this.pictureBox3.Image = global::ClinicaMedicare.Properties.Resources.minimizar_ventana;
             this.pictureBox3.InitialImage = global::ClinicaMedicare.Properties.Resources.cruz;
-            this.pictureBox3.Location = new System.Drawing.Point(881, 12);
+            this.pictureBox3.Location = new System.Drawing.Point(1151, 20);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(25, 25);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -98,7 +98,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Wide Latin", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(305, 7);
+            this.label1.Location = new System.Drawing.Point(431, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(427, 46);
             this.label1.TabIndex = 2;
@@ -107,7 +107,7 @@
             // BTNLOGINADMIN
             // 
             this.BTNLOGINADMIN.Image = global::ClinicaMedicare.Properties.Resources.alt_administrador;
-            this.BTNLOGINADMIN.Location = new System.Drawing.Point(404, 151);
+            this.BTNLOGINADMIN.Location = new System.Drawing.Point(549, 154);
             this.BTNLOGINADMIN.Name = "BTNLOGINADMIN";
             this.BTNLOGINADMIN.Size = new System.Drawing.Size(183, 158);
             this.BTNLOGINADMIN.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -118,7 +118,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(415, 95);
+            this.label2.Location = new System.Drawing.Point(560, 98);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(172, 27);
             this.label2.TabIndex = 6;
@@ -127,7 +127,7 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(327, 339);
+            this.textBox1.Location = new System.Drawing.Point(472, 342);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(342, 36);
@@ -138,7 +138,7 @@
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(327, 402);
+            this.textBox2.Location = new System.Drawing.Point(472, 405);
             this.textBox2.MaxLength = 20;
             this.textBox2.Name = "textBox2";
             this.textBox2.PasswordChar = '♥';
@@ -151,7 +151,7 @@
             this.btnEntrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(79)))), ((int)(((byte)(143)))));
             this.btnEntrar.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEntrar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnEntrar.Location = new System.Drawing.Point(420, 478);
+            this.btnEntrar.Location = new System.Drawing.Point(565, 481);
             this.btnEntrar.Name = "btnEntrar";
             this.btnEntrar.Size = new System.Drawing.Size(165, 47);
             this.btnEntrar.TabIndex = 9;
@@ -162,7 +162,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(958, 478);
+            this.pictureBox4.Location = new System.Drawing.Point(1205, 544);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(65, 47);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -174,7 +174,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1035, 592);
+            this.ClientSize = new System.Drawing.Size(1282, 603);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.btnEntrar);
             this.Controls.Add(this.textBox2);
