@@ -137,7 +137,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Wide Latin", 11F);
-            this.label3.Location = new System.Drawing.Point(305, 448);
+            this.label3.Location = new System.Drawing.Point(300, 448);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(163, 23);
             this.label3.TabIndex = 5;
