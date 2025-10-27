@@ -10,19 +10,11 @@ using System.Windows.Forms;
 
 namespace ClinicaMedicare.formADMIN
 {
-    public partial class frmLoginAdmin : Form
+    public partial class FormMedicos : Form
     {
-        public frmLoginAdmin()
+        public FormMedicos()
         {
             InitializeComponent();
         }
-
-        private void btnEntrar_Click(object sender, EventArgs e)
-        {
-            frm_PANTALLA_PRINCIPAL_ADMIN pantallaAdmin = new frm_PANTALLA_PRINCIPAL_ADMIN();
-            pantallaAdmin.Show();
-            this.Hide();
-        }
-
     }
 }

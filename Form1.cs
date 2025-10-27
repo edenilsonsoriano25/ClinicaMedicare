@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ClinicaMedicare.formADMIN;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -26,5 +27,13 @@ namespace ClinicaMedicare
         {
 
         }
+
+        private void BTNLOGINADMIN_Click(object sender, EventArgs e)
+        {
+            frmLoginAdmin frmLoginAdmin = new frmLoginAdmin();
+            frmLoginAdmin.Show();
+            this.Hide();
+        }
+
     }
 }

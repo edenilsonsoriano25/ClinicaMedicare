@@ -21,5 +21,12 @@ namespace ClinicaMedicare.formADMIN
         {
 
         }
+
+        private void btnDoctores_Click(object sender, EventArgs e)
+        {
+            FormMedicos formMedicos = new FormMedicos();
+            formMedicos.Show();
+            this.Hide();
+        }
     }
 }

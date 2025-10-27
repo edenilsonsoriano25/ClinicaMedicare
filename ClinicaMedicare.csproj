@@ -52,11 +52,17 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="formADMIN\frm PANTALLA PRINCIPAL ADMIN.cs">
+    <Compile Include="formADMIN\FormMedicos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="formADMIN\frm PANTALLA PRINCIPAL ADMIN.Designer.cs">
-      <DependentUpon>frm PANTALLA PRINCIPAL ADMIN.cs</DependentUpon>
+    <Compile Include="formADMIN\FormMedicos.Designer.cs">
+      <DependentUpon>FormMedicos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formADMIN\frmPANTALLAPRINCIPALADMIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formADMIN\frmPANTALLAPRINCIPALADMIN.Designer.cs">
+      <DependentUpon>frmPANTALLAPRINCIPALADMIN.cs</DependentUpon>
     </Compile>
     <Compile Include="formADMIN\frmLoginAdmin.cs">
       <SubType>Form</SubType>
@@ -69,8 +75,11 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="formADMIN\frm PANTALLA PRINCIPAL ADMIN.resx">
-      <DependentUpon>frm PANTALLA PRINCIPAL ADMIN.cs</DependentUpon>
+    <EmbeddedResource Include="formADMIN\FormMedicos.resx">
+      <DependentUpon>FormMedicos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formADMIN\frmPANTALLAPRINCIPALADMIN.resx">
+      <DependentUpon>frmPANTALLAPRINCIPALADMIN.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="formADMIN\frmLoginAdmin.resx">
       <DependentUpon>frmLoginAdmin.cs</DependentUpon>
