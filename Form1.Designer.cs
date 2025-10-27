@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(InicioForm));
             this.BarraTitulo = new System.Windows.Forms.Panel();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -62,7 +63,7 @@
             // 
             this.pictureBox3.Image = global::ClinicaMedicare.Properties.Resources.minimizar_ventana;
             this.pictureBox3.InitialImage = global::ClinicaMedicare.Properties.Resources.cruz;
-            this.pictureBox3.Location = new System.Drawing.Point(1062, 5);
+            this.pictureBox3.Location = new System.Drawing.Point(1210, 3);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(25, 25);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -73,7 +74,7 @@
             // 
             this.pictureBox2.Image = global::ClinicaMedicare.Properties.Resources.restaurar_ventana;
             this.pictureBox2.InitialImage = global::ClinicaMedicare.Properties.Resources.cruz;
-            this.pictureBox2.Location = new System.Drawing.Point(1093, 5);
+            this.pictureBox2.Location = new System.Drawing.Point(1241, 3);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(25, 25);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -84,7 +85,7 @@
             // 
             this.pictureBox1.Image = global::ClinicaMedicare.Properties.Resources.cruz;
             this.pictureBox1.InitialImage = global::ClinicaMedicare.Properties.Resources.cruz;
-            this.pictureBox1.Location = new System.Drawing.Point(1124, 5);
+            this.pictureBox1.Location = new System.Drawing.Point(1272, 3);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(25, 25);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -135,10 +136,10 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(331, 442);
+            this.label3.Font = new System.Drawing.Font("Wide Latin", 11F);
+            this.label3.Location = new System.Drawing.Point(305, 448);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(108, 29);
+            this.label3.Size = new System.Drawing.Size(163, 23);
             this.label3.TabIndex = 5;
             this.label3.Text = "MEDICO";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -146,10 +147,10 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(785, 442);
+            this.label4.Font = new System.Drawing.Font("Wide Latin", 11F);
+            this.label4.Location = new System.Drawing.Point(724, 448);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(212, 29);
+            this.label4.Size = new System.Drawing.Size(338, 23);
             this.label4.TabIndex = 6;
             this.label4.Text = "ADMINISTRADOR";
             // 
@@ -165,7 +166,8 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.BarraTitulo);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "InicioForm";
             this.Text = "InicioForm";
             this.Load += new System.EventHandler(this.Form1_Load);

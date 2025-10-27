@@ -684,7 +684,8 @@
             this.Controls.Add(this.panelArriba);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.MENUVERTICAL);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormPacientes";
             this.Text = "FormPacientes";
             this.MENUVERTICAL.ResumeLayout(false);

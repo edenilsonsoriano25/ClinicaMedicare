@@ -129,15 +129,19 @@
             this.textBox1.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(327, 339);
             this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(342, 36);
             this.textBox1.TabIndex = 7;
+            this.textBox1.Tag = "";
             this.textBox1.Text = "USUARIO";
             // 
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.Location = new System.Drawing.Point(327, 402);
+            this.textBox2.MaxLength = 20;
             this.textBox2.Name = "textBox2";
+            this.textBox2.PasswordChar = '♥';
             this.textBox2.Size = new System.Drawing.Size(342, 36);
             this.textBox2.TabIndex = 8;
             this.textBox2.Text = "CONTRASEÑA";
@@ -179,6 +183,7 @@
             this.Controls.Add(this.BTNLOGINADMIN);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmLoginAdmin";
             this.Text = "frmLoginAdmin";
             this.panel1.ResumeLayout(false);
