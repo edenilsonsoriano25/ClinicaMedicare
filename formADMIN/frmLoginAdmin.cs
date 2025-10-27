@@ -24,5 +24,11 @@ namespace ClinicaMedicare.formADMIN
             this.Hide();
         }
 
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            InicioForm inicioForm = new InicioForm();
+            inicioForm.Show();
+            this.Hide();
+        }
     }
 }

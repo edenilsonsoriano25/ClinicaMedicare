@@ -16,5 +16,15 @@ namespace ClinicaMedicare.formADMIN
         {
             InitializeComponent();
         }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FormReportePacientes_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

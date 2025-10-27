@@ -95,7 +95,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Wide Latin", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(354, 67);
+            this.label1.Location = new System.Drawing.Point(416, 64);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(427, 46);
             this.label1.TabIndex = 1;
@@ -105,7 +105,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(483, 207);
+            this.label2.Location = new System.Drawing.Point(521, 178);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(167, 29);
             this.label2.TabIndex = 2;
@@ -114,7 +114,7 @@
             // BTNLOGINMEDICO
             // 
             this.BTNLOGINMEDICO.Image = global::ClinicaMedicare.Properties.Resources.md_del_usuario;
-            this.BTNLOGINMEDICO.Location = new System.Drawing.Point(251, 271);
+            this.BTNLOGINMEDICO.Location = new System.Drawing.Point(294, 271);
             this.BTNLOGINMEDICO.Name = "BTNLOGINMEDICO";
             this.BTNLOGINMEDICO.Size = new System.Drawing.Size(183, 158);
             this.BTNLOGINMEDICO.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -124,7 +124,7 @@
             // BTNLOGINADMIN
             // 
             this.BTNLOGINADMIN.Image = global::ClinicaMedicare.Properties.Resources.alt_administrador;
-            this.BTNLOGINADMIN.Location = new System.Drawing.Point(688, 271);
+            this.BTNLOGINADMIN.Location = new System.Drawing.Point(790, 271);
             this.BTNLOGINADMIN.Name = "BTNLOGINADMIN";
             this.BTNLOGINADMIN.Size = new System.Drawing.Size(183, 158);
             this.BTNLOGINADMIN.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -136,7 +136,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(289, 442);
+            this.label3.Location = new System.Drawing.Point(331, 442);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(108, 29);
             this.label3.TabIndex = 5;
@@ -147,7 +147,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(674, 442);
+            this.label4.Location = new System.Drawing.Point(785, 442);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(212, 29);
             this.label4.TabIndex = 6;
