@@ -125,7 +125,7 @@
             // BTNLOGINADMIN
             // 
             this.BTNLOGINADMIN.Image = global::ClinicaMedicare.Properties.Resources.alt_administrador;
-            this.BTNLOGINADMIN.Location = new System.Drawing.Point(790, 271);
+            this.BTNLOGINADMIN.Location = new System.Drawing.Point(794, 271);
             this.BTNLOGINADMIN.Name = "BTNLOGINADMIN";
             this.BTNLOGINADMIN.Size = new System.Drawing.Size(183, 158);
             this.BTNLOGINADMIN.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
