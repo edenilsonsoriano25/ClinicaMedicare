@@ -104,10 +104,10 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(521, 178);
+            this.label2.Font = new System.Drawing.Font("Wide Latin", 22.2F);
+            this.label2.Location = new System.Drawing.Point(416, 172);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(167, 29);
+            this.label2.Size = new System.Drawing.Size(474, 46);
             this.label2.TabIndex = 2;
             this.label2.Text = "Ingresar como";
             // 
