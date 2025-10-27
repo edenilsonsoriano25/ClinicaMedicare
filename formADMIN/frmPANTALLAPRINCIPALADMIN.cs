@@ -28,5 +28,33 @@ namespace ClinicaMedicare.formADMIN
             formMedicos.Show();
             this.Hide();
         }
+
+        private void btnPacientes_Click(object sender, EventArgs e)
+        {
+            FormPacientes formPacientes = new FormPacientes();
+            formPacientes.Show();
+            this.Hide();
+        }
+
+        private void btnCerrarseccion_Click(object sender, EventArgs e)
+        {
+            frmLoginAdmin frmLoginAdmin = new frmLoginAdmin();
+            frmLoginAdmin.Show();
+            this.Hide();
+        }
+
+        private void btnUsuarios_Click(object sender, EventArgs e)
+        {
+           FormUsuario formUsuario = new FormUsuario();
+            formUsuario.Show();
+            this.Hide();
+        }
+
+        private void btnReportes_Click(object sender, EventArgs e)
+        {
+            FormReportePacientes formReportePacientes = new FormReportePacientes();
+            formReportePacientes.Show();
+            this.Hide();
+        }
     }
 }

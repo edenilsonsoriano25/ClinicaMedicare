@@ -10,17 +10,16 @@ using System.Windows.Forms;
 
 namespace ClinicaMedicare.formADMIN
 {
-    public partial class FormMedicos : Form
+    public partial class FormUsuario : Form
     {
-        public FormMedicos()
+        public FormUsuario()
         {
             InitializeComponent();
         }
 
-        private void btnPaciente_Click(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
-            
-            
+
         }
     }
 }

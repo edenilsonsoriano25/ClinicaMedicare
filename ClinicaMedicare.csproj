@@ -58,6 +58,24 @@
     <Compile Include="formADMIN\FormMedicos.Designer.cs">
       <DependentUpon>FormMedicos.cs</DependentUpon>
     </Compile>
+    <Compile Include="formADMIN\FormPacientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formADMIN\FormPacientes.Designer.cs">
+      <DependentUpon>FormPacientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formADMIN\FormReportePacientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formADMIN\FormReportePacientes.Designer.cs">
+      <DependentUpon>FormReportePacientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formADMIN\FormUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formADMIN\FormUsuario.Designer.cs">
+      <DependentUpon>FormUsuario.cs</DependentUpon>
+    </Compile>
     <Compile Include="formADMIN\frmPANTALLAPRINCIPALADMIN.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,6 +95,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="formADMIN\FormMedicos.resx">
       <DependentUpon>FormMedicos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formADMIN\FormPacientes.resx">
+      <DependentUpon>FormPacientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formADMIN\FormReportePacientes.resx">
+      <DependentUpon>FormReportePacientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formADMIN\FormUsuario.resx">
+      <DependentUpon>FormUsuario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="formADMIN\frmPANTALLAPRINCIPALADMIN.resx">
       <DependentUpon>frmPANTALLAPRINCIPALADMIN.cs</DependentUpon>

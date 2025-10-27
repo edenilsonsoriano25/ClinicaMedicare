@@ -30,9 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_PANTALLA_PRINCIPAL_ADMIN));
             this.MENUVERTICAL = new System.Windows.Forms.Panel();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnReportes = new System.Windows.Forms.Button();
+            this.btnUsuarios = new System.Windows.Forms.Button();
+            this.btnPacientes = new System.Windows.Forms.Button();
             this.btnDoctores = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.btnCerrarseccion = new System.Windows.Forms.Button();
@@ -41,9 +41,12 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panelArriba = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.MENUVERTICAL.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -53,9 +56,9 @@
             this.MENUVERTICAL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
             this.MENUVERTICAL.Controls.Add(this.pictureBox2);
             this.MENUVERTICAL.Controls.Add(this.pictureBox1);
-            this.MENUVERTICAL.Controls.Add(this.button3);
-            this.MENUVERTICAL.Controls.Add(this.button2);
-            this.MENUVERTICAL.Controls.Add(this.button1);
+            this.MENUVERTICAL.Controls.Add(this.btnReportes);
+            this.MENUVERTICAL.Controls.Add(this.btnUsuarios);
+            this.MENUVERTICAL.Controls.Add(this.btnPacientes);
             this.MENUVERTICAL.Controls.Add(this.btnDoctores);
             this.MENUVERTICAL.Controls.Add(this.label2);
             this.MENUVERTICAL.Controls.Add(this.btnCerrarseccion);
@@ -69,50 +72,53 @@
             this.MENUVERTICAL.Size = new System.Drawing.Size(247, 650);
             this.MENUVERTICAL.TabIndex = 0;
             // 
-            // button3
+            // btnReportes
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
-            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(79)))), ((int)(((byte)(143)))));
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(47, 436);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(197, 47);
-            this.button3.TabIndex = 10;
-            this.button3.Text = "Reportes";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btnReportes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
+            this.btnReportes.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnReportes.FlatAppearance.BorderSize = 0;
+            this.btnReportes.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(79)))), ((int)(((byte)(143)))));
+            this.btnReportes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnReportes.ForeColor = System.Drawing.Color.White;
+            this.btnReportes.Location = new System.Drawing.Point(47, 436);
+            this.btnReportes.Name = "btnReportes";
+            this.btnReportes.Size = new System.Drawing.Size(197, 47);
+            this.btnReportes.TabIndex = 10;
+            this.btnReportes.Text = "Reportes";
+            this.btnReportes.UseVisualStyleBackColor = false;
+            this.btnReportes.Click += new System.EventHandler(this.btnReportes_Click);
             // 
-            // button2
+            // btnUsuarios
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(79)))), ((int)(((byte)(143)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(47, 366);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(197, 47);
-            this.button2.TabIndex = 9;
-            this.button2.Text = "Usuarios";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnUsuarios.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
+            this.btnUsuarios.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnUsuarios.FlatAppearance.BorderSize = 0;
+            this.btnUsuarios.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(79)))), ((int)(((byte)(143)))));
+            this.btnUsuarios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnUsuarios.ForeColor = System.Drawing.Color.White;
+            this.btnUsuarios.Location = new System.Drawing.Point(47, 366);
+            this.btnUsuarios.Name = "btnUsuarios";
+            this.btnUsuarios.Size = new System.Drawing.Size(197, 47);
+            this.btnUsuarios.TabIndex = 9;
+            this.btnUsuarios.Text = "Usuarios";
+            this.btnUsuarios.UseVisualStyleBackColor = false;
+            this.btnUsuarios.Click += new System.EventHandler(this.btnUsuarios_Click);
             // 
-            // button1
+            // btnPacientes
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(79)))), ((int)(((byte)(143)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(47, 298);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(197, 47);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "Pacientes";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnPacientes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
+            this.btnPacientes.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnPacientes.FlatAppearance.BorderSize = 0;
+            this.btnPacientes.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(79)))), ((int)(((byte)(143)))));
+            this.btnPacientes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPacientes.ForeColor = System.Drawing.Color.White;
+            this.btnPacientes.Location = new System.Drawing.Point(47, 298);
+            this.btnPacientes.Name = "btnPacientes";
+            this.btnPacientes.Size = new System.Drawing.Size(197, 47);
+            this.btnPacientes.TabIndex = 8;
+            this.btnPacientes.Text = "Pacientes";
+            this.btnPacientes.UseVisualStyleBackColor = false;
+            this.btnPacientes.Click += new System.EventHandler(this.btnPacientes_Click);
             // 
             // btnDoctores
             // 
@@ -154,6 +160,7 @@
             this.btnCerrarseccion.TabIndex = 4;
             this.btnCerrarseccion.Text = "Cerrar Seccion";
             this.btnCerrarseccion.UseVisualStyleBackColor = false;
+            this.btnCerrarseccion.Click += new System.EventHandler(this.btnCerrarseccion_Click);
             // 
             // panel4
             // 
@@ -196,6 +203,28 @@
             this.panelArriba.Size = new System.Drawing.Size(1053, 48);
             this.panelArriba.TabIndex = 1;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(254, 226);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(1046, 102);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "BIENVENID@ A LA PANTALLA DE ADMINISTRADOR\r\n                                    ME" +
+    "DICARE";
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(657, 341);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(288, 203);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 13;
+            this.pictureBox3.TabStop = false;
+            // 
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
@@ -222,6 +251,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1300, 650);
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.panelArriba);
             this.Controls.Add(this.MENUVERTICAL);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -229,9 +260,11 @@
             this.Text = "frm_PANTALLA_PRINCIPAL_ADMIN";
             this.MENUVERTICAL.ResumeLayout(false);
             this.MENUVERTICAL.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -247,9 +280,11 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button btnDoctores;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnReportes;
+        private System.Windows.Forms.Button btnUsuarios;
+        private System.Windows.Forms.Button btnPacientes;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }
